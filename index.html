@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Talwalus | Just Vibing</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Floating decorative elements -->
+  <div class="floating-shapes">
+    <div class="shape shape-1"></div>
+    <div class="shape shape-2"></div>
+    <div class="shape shape-3"></div>
+    <div class="shape shape-4"></div>
+    <div class="shape shape-5"></div>
+    <div class="star star-1">✦</div>
+    <div class="star star-2">✧</div>
+    <div class="star star-3">✦</div>
+    <div class="star star-4">✧</div>
+    <div class="star star-5">✦</div>
+  </div>
+
+  <!-- Navbar -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">Talwalus<span class="glow-dot">.</span></a>
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#hobbies" class="nav-link">Hobi</a></li>
+        <li><a href="#gallery" class="nav-link">Foto</a></li>
+        <li><a href="#music" class="nav-link">Musik</a></li>
+        <li><a href="#videos" class="nav-link">Video</a></li>
+        <li><a href="#likes" class="nav-link">Likes</a></li>
+        <li><a href="#social" class="nav-link">Social</a></li>
+      </ul>
+      <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+        <i class="fas fa-moon"></i>
+      </button>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-content">
+      <div class="avatar-wrapper">
+        <div class="avatar-glow"></div>
+        <img src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=400&h=400&fit=crop" alt="Talwalus" class="avatar" id="profile-avatar">
+      </div>
+      <h1 class="hero-name">Talwalus</h1>
+      <p class="hero-tagline">
+        <span id="typing-text"></span><span class="cursor">|</span>
+      </p>
+      <p class="hero-desc">cuma manusia biasa yang suka ngulik hal random ✨</p>
+      <div class="hero-buttons">
+        <a href="#about" class="btn btn-primary">Kenalan Yuk</a>
+        <a href="#gallery" class="btn btn-secondary">Lihat Koleksi</a>
+        <a href="#about" class="btn btn-ghost">Scroll Down <i class="fas fa-chevron-down"></i></a>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <div class="mouse"></div>
+    </div>
+  </section>
+
+  <!-- About Me -->
+  <section class="section about" id="about">
+    <div class="container">
+      <h2 class="section-title">Tentang Saya <span class="emoji">👋</span></h2>
+      <div class="about-grid">
+        <div class="about-card glass">
+          <div class="about-item">
+            <span class="about-label">Nama</span>
+            <span class="about-value">Talwalus</span>
+          </div>
+          <div class="about-item">
+            <span class="about-label">Domisili</span>
+            <span class="about-value">Yogyakarta 🏯</span>
+          </div>
+          <div class="about-item">
+            <span class="about-label">Status</span>
+            <span class="about-value">Single & vibing 😌</span>
+          </div>
+          <div class="about-item">
+            <span class="about-label">Zodiak</span>
+            <span class="about-value">Sagitarius ♐</span>
+          </div>
+          <div class="about-item">
+            <span class="about-label">Makanan Fav</span>
+            <span class="about-value">Indomie + Telur 🍜</span>
+          </div>
+          <div class="about-item">
+            <span class="about-label">Minuman Fav</span>
+            <span class="about-value">Kopi hitam & teh oolong ☕</span>
+          </div>
+        </div>
+        <div class="about-text glass">
+          <p>Haii! Aku <strong>Talwalus</strong>, manusia biasa dari Yogyakarta yang suka banget ngulik hal-hal random di internet.</p>
+          <p>Kadang main game sampe lupa waktu, kadang foto-foto random, kadang dengerin J-Pop sambil ngetik prompt AI, kadang traveling ke tempat yang belum pernah dikunjungi.</p>
+          <p>Motto hidupku: <em>"there was A light Even in space"</em> ✨</p>
+          <p class="fun-fact">Fun fact: warna favoritku fluktuatif — tergantung mood hari itu 🎨</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Hobbies -->
+  <section class="section hobbies" id="hobbies">
+    <div class="container">
+      <h2 class="section-title">Hobi Saya <span class="emoji">🎮</span></h2>
+      <div class="hobbies-grid">
+        <div class="hobby-card glass">
+          <div class="hobby-icon">🎮</div>
+          <h3>Gaming</h3>
+          <p>Main game sampe lupa makan. Ranked atau casual? Keduanya!</p>
+        </div>
+        <div class="hobby-card glass">
+          <div class="hobby-icon">📸</div>
+          <h3>Fotografi</h3>
+          <p>Nangkep momen random, street, sunset, apa aja yang estetik.</p>
+        </div>
+        <div class="hobby-card glass">
+          <div class="hobby-icon">🎵</div>
+          <h3>Musik</h3>
+          <p>J-Pop adalah life. Playlist selalu full, headphones selalu on.</p>
+        </div>
+        <div class="hobby-card glass">
+          <div class="hobby-icon">✈️</div>
+          <h3>Traveling</h3>
+          <p>Jalan-jalan ke tempat baru, cari vibes, ambil foto, ulang.</p>
+        </div>
+        <div class="hobby-card glass">
+          <div class="hobby-icon">🤖</div>
+          <h3>Prompting</h3>
+          <p>Ngulik AI, bikin prompt random, eksperimen terus.</p>
+        </div>
+        <div class="hobby-card glass">
+          <div class="hobby-icon">🔥</div>
+          <h3>Nonton</h3>
+          <p>Anime, film, series — binge watching adalah skill.</p>
+        </div>
+        <div class="hobby-card glass">
+          <div class="hobby-icon">💻</div>
+          <h3>Ngoding</h3>
+          <p>Kadang nulis kode, kadang cuma nonton tutorial 4 jam.</p>
+        </div>
+        <div class="hobby-card glass">
+          <div class="hobby-icon">🌙</div>
+          <h3>Begadang</h3>
+          <p>Malam hari adalah waktu paling produktif (atau produktif rebah).</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery -->
+  <section class="section gallery" id="gallery">
+    <div class="container">
+      <h2 class="section-title">Koleksi Foto <span class="emoji">📷</span></h2>
+      <p class="section-subtitle">Beberapa momen random yang aku simpan</p>
+      <div class="gallery-grid" id="gallery-grid">
+        <!-- Photos will be injected or static -->
+        <div class="gallery-item" data-index="0">
+          <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&h=800&fit=crop" alt="Pemandangan gunung">
+          <div class="gallery-overlay"><span>Mountain Vibes</span></div>
+        </div>
+        <div class="gallery-item" data-index="1">
+          <img src="https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=600&h=400&fit=crop" alt="Kamera">
+          <div class="gallery-overlay"><span>Camera Gear</span></div>
+        </div>
+        <div class="gallery-item" data-index="2">
+          <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=600&h=700&fit=crop" alt="Kopi">
+          <div class="gallery-overlay"><span>Coffee Time</span></div>
+        </div>
+        <div class="gallery-item" data-index="3">
+          <img src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=600&h=500&fit=crop" alt="Alam">
+          <div class="gallery-overlay"><span>Nature Walk</span></div>
+        </div>
+        <div class="gallery-item" data-index="4">
+          <img src="https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=600&h=600&fit=crop" alt="Kucing">
+          <div class="gallery-overlay"><span>Cat Friend</span></div>
+        </div>
+        <div class="gallery-item" data-index="5">
+          <img src="https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=600&h=400&fit=crop" alt="Musik live">
+          <div class="gallery-overlay"><span>Live Music</span></div>
+        </div>
+        <div class="gallery-item" data-index="6">
+          <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=600&h=800&fit=crop" alt="Danau">
+          <div class="gallery-overlay"><span>Lake View</span></div>
+        </div>
+        <div class="gallery-item" data-index="7">
+          <img src="https://images.unsplash.com/photo-1555939594-58ed7c9e5d8b?w=600&h=500&fit=crop" alt="Makanan">
+          <div class="gallery-overlay"><span>Foodie</span></div>
+        </div>
+        <div class="gallery-item" data-index="8">
+          <img src="https://images.unsplash.com/photo-1485846234645-a62644f84781?w=600&h=700&fit=crop" alt="Cinema">
+          <div class="gallery-overlay"><span>Movie Night</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Lightbox Modal -->
+  <div class="lightbox" id="lightbox">
+    <button class="lightbox-close" id="lightbox-close"><i class="fas fa-times"></i></button>
+    <button class="lightbox-prev" id="lightbox-prev"><i class="fas fa-chevron-left"></i></button>
+    <button class="lightbox-next" id="lightbox-next"><i class="fas fa-chevron-right"></i></button>
+    <div class="lightbox-content">
+      <img src="" alt="" id="lightbox-img">
+      <p class="lightbox-caption" id="lightbox-caption"></p>
+    </div>
+  </div>
+
+  <!-- Music Section -->
+  <section class="section music" id="music">
+    <div class="container">
+      <h2 class="section-title">Musik Favorit <span class="emoji">🎧</span></h2>
+      <p class="section-subtitle">J-Pop & random tracks yang sering diputar. Tekan play ya!</p>
+      
+      <div class="music-player glass">
+        <div class="player-main">
+          <div class="album-art-wrapper">
+            <img src="https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=300&h=300&fit=crop" alt="Album cover" class="album-art" id="album-art">
+            <div class="vinyl-effect" id="vinyl-effect"></div>
+          </div>
+          <div class="player-info">
+            <h3 class="track-title" id="track-title">Pilih lagu dulu</h3>
+            <p class="track-artist" id="track-artist">—</p>
+            <div class="progress-container">
+              <span class="time current" id="current-time">0:00</span>
+              <div class="progress-bar" id="progress-bar">
+                <div class="progress" id="progress"></div>
+              </div>
+              <span class="time duration" id="duration">0:00</span>
+            </div>
+            <div class="player-controls">
+              <button class="ctrl-btn" id="prev-btn" aria-label="Previous"><i class="fas fa-step-backward"></i></button>
+              <button class="ctrl-btn play-btn" id="play-btn" aria-label="Play"><i class="fas fa-play"></i></button>
+              <button class="ctrl-btn" id="next-btn" aria-label="Next"><i class="fas fa-step-forward"></i></button>
+            </div>
+            <div class="volume-control">
+              <i class="fas fa-volume-up"></i>
+              <input type="range" id="volume-slider" min="0" max="1" step="0.01" value="0.7">
+            </div>
+          </div>
+        </div>
+        <audio id="audio-player" preload="metadata">
+          Browser kamu tidak mendukung audio.
+        </audio>
+        <div class="playlist" id="playlist">
+          <!-- Playlist items injected by JS -->
+        </div>
+      </div>
+      <p class="music-note">💡 Tip: File lagu taruh di <code>assets/music/</code> lalu update playlist di script.js</p>
+    </div>
+  </section>
+
+  <!-- Videos Section -->
+  <section class="section videos" id="videos">
+    <div class="container">
+      <h2 class="section-title">Video Favorit <span class="emoji">🎬</span></h2>
+      <p class="section-subtitle">Sedikit koleksi video yang aku suka</p>
+      
+      <div class="videos-grid">
+        <div class="video-card glass">
+          <div class="video-wrapper">
+            <iframe 
+              src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
+              title="Favorite Video 1"
+              allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+              loading="lazy">
+            </iframe>
+          </div>
+          <div class="video-info">
+            <h3>Random Classic</h3>
+            <p>Video random yang selalu bikin senyum.</p>
+          </div>
+        </div>
+        <div class="video-card glass">
+          <div class="video-wrapper">
+            <iframe 
+              src="https://www.youtube.com/embed/9bZkp7q19f0" 
+              title="Favorite Video 2"
+              allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+              loading="lazy">
+            </iframe>
+          </div>
+          <div class="video-info">
+            <h3>K-Pop / J-Pop Energy</h3>
+            <p>Vibes musik yang sering diputar ulang.</p>
+          </div>
+        </div>
+        <div class="video-card glass">
+          <div class="video-wrapper local-video">
+            <video controls poster="https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?w=800&h=450&fit=crop" preload="metadata">
+              <source src="assets/videos/video-1.mp4" type="video/mp4">
+              Browser kamu tidak mendukung video.
+            </video>
+          </div>
+          <div class="video-info">
+            <h3>Local Clip (Placeholder)</h3>
+            <p>Ganti file di <code>assets/videos/video-1.mp4</code> biar bisa diputar.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Things I Like -->
+  <section class="section likes" id="likes">
+    <div class="container">
+      <h2 class="section-title">Things I Like <span class="emoji">💜</span></h2>
+      <div class="tags-cloud">
+        <span class="tag">☕ Coffee</span>
+        <span class="tag">🌙 Late Night Drive</span>
+        <span class="tag">🎌 Anime</span>
+        <span class="tag">🎧 Lo-fi & J-Pop</span>
+        <span class="tag">📷 Street Photography</span>
+        <span class="tag">🕵️ Mystery Movies</span>
+        <span class="tag">🎮 Gaming</span>
+        <span class="tag">🌅 Sunset</span>
+        <span class="tag">🌧️ Rainy Day</span>
+        <span class="tag">🍔 Fast Food</span>
+        <span class="tag">🤖 AI Prompting</span>
+        <span class="tag">✈️ Traveling</span>
+        <span class="tag">🌃 Neon Lights</span>
+        <span class="tag">📚 Random Facts</span>
+        <span class="tag">🪐 Space Vibes</span>
+        <span class="tag">💤 Begadang</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Random Facts -->
+  <section class="section facts" id="facts">
+    <div class="container">
+      <h2 class="section-title">Random Facts <span class="emoji">🎲</span></h2>
+      <div class="facts-grid">
+        <div class="fact-card glass">
+          <span class="fact-emoji">🌙</span>
+          <p>Suka banget begadang. Malam = peak creativity (kadang).</p>
+        </div>
+        <div class="fact-card glass">
+          <span class="fact-emoji">🎧</span>
+          <p>Tidak bisa hidup tanpa musik. Headphones selalu siap.</p>
+        </div>
+        <div class="fact-card glass">
+          <span class="fact-emoji">📸</span>
+          <p>Sering simpan foto random yang bahkan aku sendiri lupa kenapa diambil.</p>
+        </div>
+        <div class="fact-card glass">
+          <span class="fact-emoji">📃</span>
+          <p>Punya banyak playlist. Satu lagu bisa diputar 50x tanpa bosan.</p>
+        </div>
+        <div class="fact-card glass">
+          <span class="fact-emoji">🚀</span>
+          <p>Suka coba hal baru — kadang berhasil, kadang "ya sudah lah".</p>
+        </div>
+        <div class="fact-card glass">
+          <span class="fact-emoji">✨</span>
+          <p>Motto: <em>there was A light Even in space</em></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Social Media -->
+  <section class="section social" id="social">
+    <div class="container">
+      <h2 class="section-title">Find Me <span class="emoji">🌐</span></h2>
+      <p class="section-subtitle">Yuk saling stalk (dengan sopan ya)</p>
+      <div class="social-links">
+        <a href="[Link Instagram]" class="social-btn" target="_blank" rel="noopener" aria-label="Instagram">
+          <i class="fab fa-instagram"></i>
+          <span>Instagram</span>
+        </a>
+        <a href="[Link TikTok]" class="social-btn" target="_blank" rel="noopener" aria-label="TikTok">
+          <i class="fab fa-tiktok"></i>
+          <span>TikTok</span>
+        </a>
+        <a href="[Link GitHub]" class="social-btn" target="_blank" rel="noopener" aria-label="GitHub">
+          <i class="fab fa-github"></i>
+          <span>GitHub</span>
+        </a>
+        <a href="[Link YouTube]" class="social-btn" target="_blank" rel="noopener" aria-label="YouTube">
+          <i class="fab fa-youtube"></i>
+          <span>YouTube</span>
+        </a>
+        <a href="[Link Spotify]" class="social-btn" target="_blank" rel="noopener" aria-label="Spotify">
+          <i class="fab fa-spotify"></i>
+          <span>Spotify</span>
+        </a>
+        <a href="[Link Discord]" class="social-btn" target="_blank" rel="noopener" aria-label="Discord">
+          <i class="fab fa-discord"></i>
+          <span>Discord</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p class="footer-quote">Thanks for stopping by. Stay weird, stay awesome.</p>
+      <p class="footer-credit">Made with caffeine & late nights ☕🌙</p>
+      <p class="footer-name">© <span id="year"></span> Talwalus</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
